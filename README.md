@@ -23,3 +23,5 @@ simple_icons:
 ```
 
 If you want use simple-icons npm package, just write `"package"` in `type`.
+
+If you have installed the simple-icons to your website, just edit the `cdn_url` node.
