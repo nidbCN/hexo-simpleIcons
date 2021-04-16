@@ -28,3 +28,13 @@ simple_icons:
   # The zoom size of your icon, in default, the value is 1.2. The icon will has a seem height of line, you can modify this value to resize the icon.
   size: 1.2
 ```
+
+### Writting
+
+Use
+
+```md
+{% icon [ICON NAME] %} to add a simple-icons. If you use CDN, the icon will in a im attr, use package it will be a svg in HTML document directly.
+```
+
+You can find `[ICON NAME]` in simple icon offical website: [SimpleIcons.org](https://simpleicons.org/)
