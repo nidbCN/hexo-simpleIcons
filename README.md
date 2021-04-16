@@ -10,18 +10,17 @@ npm install hexo-simpleicons --save
 
 ## Usage
 
-### Config
+### Configure
 
 Edit `_config.yml` and add:
 
 ```yml
 simple_icons:
   enable: true
-  options:
-    cdn_url: "https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/"
+  # The cdn base url you want to use, if you save the simple-icons in your server, just modify it to the url of your simple-icons storage.
+  cdn_url: "https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/"
+  # The type you want to use, if you want use simple-icons npm package, modify it to package.
   type: "cdn"
+  # The zoom size of your icon, in default, the value is 1.2. The icon will has a seem height of line, you can modify this value to resize the icon.
+  size: 1.2
 ```
-
-If you want use simple-icons npm package, just write `"package"` in `type`.
-
-If you have installed the simple-icons to your website, just edit the `cdn_url` node.
