@@ -33,6 +33,6 @@ hexo.extend.tag.register('icon', (args) => {
 	if (config.cdn_url == undefined)
 		config.cdn_url = "https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/";
 
-	const func = require('./libs/convertor').default;
+	const func = require('./libs/convertor');
 	return func(icon_name, config.type, config.cdn_url);
 });
