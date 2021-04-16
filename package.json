@@ -1,6 +1,6 @@
 {
-  "name": "hexo-simpleIcons",
-  "version": "1.0.0",
+  "name": "hexo-simpleicons",
+  "version": "1.1.0",
   "description": "Use simple-icons in your hexo passages.",
   "main": "index.js",
   "scripts": {
