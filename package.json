@@ -1,0 +1,24 @@
+{
+  "name": "hexo-simpleicons",
+  "version": "1.0.0",
+  "description": "Use simple-icon in your hexo passages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidbCN/hexo-simpleicons.git"
+  },
+  "keywords": [
+    "hexo",
+    "icon",
+    "simple-icon"
+  ],
+  "author": "Gaein nidb",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nidbCN/hexo-simpleicons/issues"
+  },
+  "homepage": "https://github.com/nidbCN/hexo-simpleicons#readme"
+}
