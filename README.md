@@ -1,5 +1,9 @@
 # hexo-simpleicons
 
+![Picture](https://raw.githubusercontent.com/nidbCN/hexo-simpleIcons/master/images/01.jpg)
+
+![SimpleIcon](https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/simpleicons.svg)
+
 Use [simple-icons](https://github.com/simple-icons/simple-icons) in your hexo blog.
 
 ## Installation
