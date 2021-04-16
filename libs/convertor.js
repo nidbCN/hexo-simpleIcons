@@ -1,4 +1,4 @@
-export default function toIcon(icon_name, type, cdn_url) {
+module.exports = function toIcon(icon_name, type, cdn_url) {
     // Default svg.
     const svg_content_default =
         `Here should be ${icon_name}, but we can not get icon, please check your Internet connection or the contact website master.`;
