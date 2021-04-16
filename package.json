@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/nidbCN/hexo-simpleIcons/issues"
   },
-  "homepage": "https://github.com/nidbCN/hexo-simpleIcons#readme"
+  "homepage": "https://github.com/nidbCN/hexo-simpleIcons#readme",
+  "dependencies": {
+    "simple-icons": "^4.19.0"
+  }
 }
