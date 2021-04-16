@@ -34,7 +34,10 @@ simple_icons:
 Use
 
 ```md
-{% icon [ICON NAME] %} to add a simple-icons. If you use CDN, the icon will in a im attr, use package it will be a svg in HTML document directly.
+{% icon [ICON NAME] %}
 ```
+to add a simple-icons. If you use CDN, the icon will in a im attr, use package it will be a svg in HTML document directly.
+
+You can use this tag in text or markdown headline but you **can not** use it in the hexo passage title.
 
 You can find `[ICON NAME]` in simple icon offical website: [SimpleIcons.org](https://simpleicons.org/)
