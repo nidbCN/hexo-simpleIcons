@@ -29,6 +29,17 @@ simple_icons:
   size: 1.2
 ```
 
+#### NOTICE
+
+By default, we did not add the package "simple-icons", if you want to use simple-icons npm package, you need:
+
+```bash
+cd node_modules/hexo-simpleicons
+npm install simple-icons
+```
+
+Install this package first.
+
 ### Writting
 
 Use
