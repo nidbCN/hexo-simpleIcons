@@ -1,4 +1,4 @@
-module.exports = function toIcon(icon_name, type, cdn_url) {
+module.exports = function toIcon(icon_name, icon_color, type, cdn_url) {
     // Default svg.
     let icon_content = `Here should be ${icon_name}, but there is a wrong type configuration.`;
 
@@ -18,7 +18,7 @@ module.exports = function toIcon(icon_name, type, cdn_url) {
             break;
     }
 
-    return `<span id="simple-icons-${icon_name}" class="simple-icon" style="color: ${icon_color};">${icon_content}</span>`;
+    return icon_color != null ? `<span id="simple-icons-${icon_name}" class="simple-icon" style="color: ${icon_color};">${icon_content}</span>` : `<span id="simple-icons-${icon_name}" class="simple-icon">${icon_content}</span>`;
 }
 
 function urlCombine(base_url, file_name) {
