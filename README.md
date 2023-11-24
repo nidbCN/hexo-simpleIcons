@@ -1,12 +1,13 @@
 # hexo-simpleicons
-<p align="center">
 
 ![Picture](https://raw.githubusercontent.com/nidbCN/hexo-simpleIcons/master/images/01.jpg)
+
+<div align="center">
 
 <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/simpleicons.svg" width=70 height=70/>
 
 Use [simple-icons](https://github.com/simple-icons/simple-icons) in your hexo blog.
-</p>
+</div>
 
 ## Installation
 
