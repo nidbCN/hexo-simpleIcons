@@ -23,6 +23,8 @@ hexo.extend.tag.register('icon', (args) => {
 		return `${icon_name} icon.`;
 
 	const icon_name = args[0];
+	const icon_color = args[1];
+
 	if (icon_name == undefined)
 		// Throw error when lack of arguments.
 		throw new TypeError("[hexo-simpleIcon]Icon name should be string not undefined!");
@@ -31,8 +33,8 @@ hexo.extend.tag.register('icon', (args) => {
 	if (config.type == undefined)
 		config.type = "cdn";
 	if (config.cdn_url == undefined)
-		config.cdn_url = "https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/";
+		config.cdn_url = "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/";
 
 	const func = require('./libs/convertor');
-	return func(icon_name, config.type, config.cdn_url);
+	return func(icon_name, icon_color, config.type, config.cdn_url);
 });

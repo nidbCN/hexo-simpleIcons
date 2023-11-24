@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/nidbCN/hexo-simpleIcons#readme",
   "dependencies": {
-    "simple-icons": "^4.19.0"
+    "simple-icons": "latest"
   }
 }
