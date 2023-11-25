@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/simpleicons.svg" width=70 height=70/>
+<img src="https://cdn.simpleicons.org/simpleicons/black/white" width=70 height=70 />
 
 Use [simple-icons](https://github.com/simple-icons/simple-icons) in your hexo blog.
 </div>
