@@ -1,8 +1,6 @@
-module.exports = function toIcon(icon_name, type, cdn_url) {
+module.exports = function toIcon(icon_name, icon_color, type, cdn_url) {
     // Default svg.
-    const svg_content_default =
-        `Here should be ${icon_name}, but we can not get icon, please check your Internet connection or the contact website master.`;
-    let icon_content = "Here should be ${icon_name}, but there is a wrong type configuration.";
+    let icon_content = `Here should be ${icon_name}, but there is a wrong type configuration.`;
 
     switch ((type).toLowerCase()) {
         case "cdn":
@@ -20,9 +18,9 @@ module.exports = function toIcon(icon_name, type, cdn_url) {
             break;
     }
 
-    return `<span id="simple-icons-${icon_name}" class="simple-icon">${icon_content}</span>`;
+    return icon_color != null ? `<span id="simple-icons-${icon_name}" class="simple-icon" style="color: ${icon_color};">${icon_content}</span>` : `<span id="simple-icons-${icon_name}" class="simple-icon">${icon_content}</span>`;
 }
 
-function urlCombine(base_url, addition) {
-    return base_url + (base_url.endsWith('/') ? addition : `/${addition}`);
+function urlCombine(base_url, file_name) {
+    return base_url.endsWith('/') ? base_url + file_name : base_url + `/${file_name}`;
 }
